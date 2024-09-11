@@ -1,0 +1,373 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    color: #333;
+}
+
+h2 {
+    font-size: 38px;
+    color: #333;
+}
+
+p {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Style for the div */
+.full-height-div {
+    min-height: 100vh; /* Full height of the viewport */
+    width: 100%; /* Maximum width */
+    margin: 0 auto; /* Center the div horizontally */
+    padding-top: 100px; /* Optional padding */
+    padding-bottom: 20px; /* Optional padding */
+}
+
+.ContentSection{
+    width: 100%; 
+}
+
+
+.Image1_Section {
+    background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/AI_DAnceStudio.jpeg);
+    height: 90vh;
+    background-blend-mode: darken;
+    text-align: center;
+    min-height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    
+    background-position: center;
+
+
+
+
+
+
+}
+
+.flexCentre {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.innerWrap {
+
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 400px;
+}
+
+.viewColumns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:40px
+    
+}
+
+.divBlock {
+     
+        padding-top: 10px;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+
+}
+
+.headline {
+    max-width: 500px;
+    text-align: left;
+    font-size: 40px;
+    color: white;
+}
+
+.heroButton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    transition-duration: .2s;
+    width: 140px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid white;
+    color: rgb(69, 69, 69);
+    padding: 10px 16px;
+    border-radius: 3px;
+}
+
+.heroButton:hover,
+.heroButton:active,
+.heroButton:focus,
+.heroButton.active {
+  /* let's darken #004E64 a bit for hover effect */
+  background: lightgray;
+  color: white;
+  border-color: lightgray;
+}
+
+.heroImage {
+    width: 300px;
+    max-width: 100%;
+}
+
+.marginRight30 {
+    margin-right: 30px;
+}
+
+.columnText{
+    max-width: 400px;
+}
+
+.columnImage {
+    max-width: 400px;
+    width:100%;
+    border-radius: 15px;
+    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+.gray {
+    background-color: rgb(209, 207, 207) ;
+}
+
+.white {
+    background-color: white ;
+}
+
+.icon{
+    width:30px;
+    padding-left: 10;
+}
+
+
+/* Email Form */
+.form-body {
+    border-color: #333;
+    border-width: 1px;
+    border-style:solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    padding-inline: 30px;
+
+    border-radius: 20px;
+
+
+    background-color: lightgray;
+
+}
+
+.form-field {
+    background: #eee;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    padding: 10px;
+    width: 300px;
+    font-size: 18px;
+
+}
+
+.formButton{
+
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        transition-duration: .2s;
+        width: 180px;
+        text-decoration: none;
+        background-color: white;
+        border: 1px solid white;
+        color: rgb(69, 69, 69);
+        padding: 10px 16px;
+        border-radius: 3px;
+        cursor: pointer;
+
+}
+
+.formButton:hover,
+.formButton:active,
+.formButton:focus,
+.formButton.active {
+  /* let's darken #004E64 a bit for hover effect */
+  background: rgb(69, 69, 69);
+  color: white;
+  border-color: rgb(69, 69, 69);
+}
+
+.form-group {
+    padding-top:20px;
+}
+
+.form-label {
+ 
+    font-size: 20px;
+    color: #333;
+}
+
+.input-group{
+    padding-top: 8px;
+}
+
+
+
+
+/* Nav Bar Control */
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+    z-index: 1000;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    margin: 0;
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+}
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 8px 12px;
+    border-radius: 0;
+}
+
+.dropdown-menu a:hover {
+    background-color: #575757;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Hamburger menu styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+}
+
+.fb-page {
+    z-index: 1;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: #333;
+        padding: 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .dropdown-menu {
+        position: static;
+        width: 100%;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: none;
+    }
+
+    .dropdown.active .dropdown-menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
