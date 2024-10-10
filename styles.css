@@ -48,6 +48,15 @@ li {
     background-position: center;
 }
 
+
+.facebookCentre {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .flexCentre {
     height: 100%;
     display: flex;
@@ -372,7 +381,7 @@ header {
 }
 
 .fb-page {
-    z-index: 1;
+    z-index: 100;
 }
 
 
@@ -381,11 +390,11 @@ header {
     .nav-links {
         display: none;
         position: absolute;
-        top: 60px;
+        top: 20px;
         left: 0;
         width: 100%;
         flex-direction: column;
-        background-color: #333;
+        background-color: red;
         padding: 0;
     }
 
