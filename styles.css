@@ -6,17 +6,19 @@ body {
 
 h1 {
     font-size: 40px;
-    color: #333;
 }
 
 h2 {
     font-size: 38px;
-    color: #333;
 }
 
 p {
     font-size: 20px;
-    color: #333;
+}
+
+li {
+    font-size: 20px;
+    line-height: 1.4;
 }
 
 /* Style for the div */
@@ -24,7 +26,7 @@ p {
     min-height: 100vh; /* Full height of the viewport */
     width: 100%; /* Maximum width */
     margin: 0 auto; /* Center the div horizontally */
-    padding-top: 100px; /* Optional padding */
+    padding-top: 50px; /* Optional padding */
     padding-bottom: 20px; /* Optional padding */
 }
 
@@ -34,7 +36,7 @@ p {
 
 
 .Image1_Section {
-    background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/AI_DAnceStudio.jpeg);
+    background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/FrontPage.jpg);
     height: 90vh;
     background-blend-mode: darken;
     text-align: center;
@@ -44,12 +46,6 @@ p {
     background-repeat: repeat;
     
     background-position: center;
-
-
-
-
-
-
 }
 
 .flexCentre {
@@ -57,29 +53,50 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .innerWrap {
 
     padding-right: 20px;
     padding-left: 20px;
-    max-width: 400px;
+    max-width: 420px;
+}
+
+.pageColumnsHeaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pageColumnsHeader{
+    max-width: 1240px;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    padding:10px;
 }
 
 .viewColumns{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     flex-wrap: wrap;
     gap:40px
     
 }
 
+.imageColumn{
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    gap:40px
+}
+
 .divBlock {
      
-        padding-top: 10px;
+        padding-top: 30px;
         flex-direction: row;
         display: flex;
         justify-content: space-between;
@@ -87,10 +104,19 @@ p {
 }
 
 .headline {
-    max-width: 500px;
+    max-width: 520px;
     text-align: left;
-    font-size: 40px;
+    font-size: 38px;
     color: white;
+    line-height: 1.2;
+}
+
+.headline2 {
+    max-width: 520px;
+    text-align: left;
+    font-size: 24px;
+    color: white;
+    line-height: 1.2;
 }
 
 .heroButton {
@@ -100,9 +126,9 @@ p {
     transition-duration: .2s;
     width: 140px;
     text-decoration: none;
-    background-color: white;
-    border: 1px solid white;
-    color: rgb(69, 69, 69);
+    background-color: red;
+    border: 1px solid red;
+    color: white;
     padding: 10px 16px;
     border-radius: 3px;
 }
@@ -122,12 +148,19 @@ p {
     max-width: 100%;
 }
 
+
 .marginRight30 {
     margin-right: 30px;
 }
 
+.columnTextSingle{
+    max-width: 1240px;
+    padding:10px;
+}
+
 .columnText{
-    max-width: 400px;
+    max-width: 800px;
+    padding:10px;
 }
 
 .columnImage {
@@ -144,11 +177,22 @@ p {
 
 .white {
     background-color: white ;
+    color: red;
+}
+
+.red {
+    color: white ;
+    background-color: red;
 }
 
 .icon{
     width:30px;
     padding-left: 10;
+}
+
+/* Page header */
+.pageH1 {
+    font-size: 30px;
 }
 
 
@@ -228,7 +272,7 @@ p {
 /* Nav Bar Control */
 
 header {
-    background-color: #333;
+    background-color: red;
     color: white;
     padding: 10px 0;
 
@@ -251,6 +295,12 @@ header {
     font-size: 24px;
 }
 
+.headerImage{
+    width: 60px;
+    max-width: 100%;
+}
+
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -271,7 +321,7 @@ header {
 }
 
 .nav-links a:hover {
-    background-color: #575757;
+    background-color: black;
 }
 
 /* Dropdown menu styles */
@@ -280,11 +330,12 @@ header {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #333;
+    background-color: red;
     list-style: none;
-    padding: 0;
+    padding: 10px;
     margin: 0;
-    width: 150px;
+    width: 250px;
+
 }
 
 .dropdown-menu li {
@@ -298,7 +349,7 @@ header {
 }
 
 .dropdown-menu a:hover {
-    background-color: #575757;
+    background-color: black;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -326,7 +377,7 @@ header {
 
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 840px) {
     .nav-links {
         display: none;
         position: absolute;
@@ -363,6 +414,18 @@ header {
     .hamburger {
         display: flex;
     }
+
+
+    .columnTextSingle{
+        max-width: 400px;
+        padding: 10px;
+    }
+
+    .columnText{
+        max-width: 400px;
+        padding: 10px;
+    }
+
 }
 
 

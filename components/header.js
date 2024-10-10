@@ -7,7 +7,9 @@ class Header extends HTMLElement {
       this.innerHTML = `
         <header>
             <nav class="navbar">
-                <div class="logo">Logo</div>
+                <div class="logo">
+                iSDA
+                </div>
                 <ul class="nav-links">
                     <li><a href="#">Home</a></li>
                     
@@ -15,12 +17,15 @@ class Header extends HTMLElement {
                         <a href="#">Classes</a>
                         <ul class="dropdown-menu">
                             <li>&nbsp;</li>
-                            <li><a href="#classes">Classes</a></li>
-                            <li><a href="#workshops">Workshops</a></li>
+                            <li><a href="#weeklyclasses">Weekly Classes</a></li>
+                            <li><a href="#HolidayCampsAndWorkshops">Holiday Camps and Workshops</a></li>
+                            <li><a href="#AfterSchoolClubs">After school clubs</a></li>
+                            <li><a href="#Parties">Parties</a></li>
+                            <li><a href="#PrivateSingingLessons">Private singing lessons</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Bookings</a></li>
-                    <li><a href="#about">About Us</a></li>
+                    <li><a href="https://app.classmanager.com/classes/ising-idance-iact-theatre-school">Bookings</a></li>
+                    <li><a href="#staff">Staff</a></li>
                 </ul>
                 <div class="hamburger">
                     <span class="bar"></span>
