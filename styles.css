@@ -6,6 +6,7 @@ body {
 
 h1 {
     font-size: 40px;
+
 }
 
 h2 {
@@ -35,18 +36,7 @@ li {
 }
 
 
-.Image1_Section {
-    background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/FrontPage.jpg);
-    height: 90vh;
-    background-blend-mode: darken;
-    text-align: center;
-    min-height: 600px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: repeat;
-    
-    background-position: center;
-}
+
 
 
 .facebookCentre {
@@ -117,6 +107,8 @@ li {
     font-size: 38px;
     color: white;
     line-height: 1.2;
+    font-family: Volkhov;
+
 }
 
 .headline2 {
@@ -317,6 +309,19 @@ li {
     /* desktop view */
     /* Apply to screens 600 or greater*/
 
+    .Image1_Section {
+        background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/FrontPage.jpg);
+        height: 90vh;
+        background-blend-mode: darken;
+        text-align: center;
+        min-height: 600px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: repeat;
+        
+        background-position: center;
+    }
+
     .headline {
         text-align: left;
     }
@@ -344,6 +349,19 @@ li {
 @media (max-width: 600px) { 
     /* small view */
     /* Apply to screens less than 600 */
+
+    .Image1_Section {
+        background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/FrontPageCrop.jpg);
+        height: 90vh;
+        background-blend-mode: darken;
+        text-align: center;
+        min-height: 600px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: repeat;
+        
+        background-position: center;
+    }
 
     .headline {
         text-align: center;
