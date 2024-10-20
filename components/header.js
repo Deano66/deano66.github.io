@@ -15,15 +15,17 @@ class Header extends HTMLElement {
                     
                     <li class="dropdown">
                         <a href="#">Classes</a>
-                        <ul class="dropdown-menu">
+
+                      <ul class="dropdown-menu">
                             <li>&nbsp;</li>
                             <li><a href="#weeklyclasses">Weekly Classes</a></li>
                             <li><a href="#HolidayCampsAndWorkshops">Holiday Camps and Workshops</a></li>
                             <li><a href="#AfterSchoolClubs">After school clubs</a></li>
                             <li><a href="#Parties">Parties</a></li>
                             <li><a href="#PrivateSingingLessons">Private singing lessons</a></li>
-                        </ul>
+                        </ul> 
                     </li>
+
                     <li><a href="https://app.classmanager.com/classes/ising-idance-iact-theatre-school">Bookings</a></li>
                     <li><a href="#staff">Staff</a></li>
                 </ul>
@@ -38,18 +40,25 @@ class Header extends HTMLElement {
     }
   }
 
-    document.addEventListener('DOMContentLoaded', () => {
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-        const dropdown = document.querySelector('.dropdown');
+  document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    const dropdown = document.querySelector('.dropdown');
 
-        hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
-
-        dropdown.addEventListener('click', () => {
-            dropdown.classList.toggle('active');
-        });
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
     });
+
+    dropdown.addEventListener('click', () => {
+        dropdown.classList.toggle('active');
+    });
+
+    navLinks.addEventListener('click', () => {
+         navLinks.classList.toggle('active');
+    });
+
+
+});
+
     
   customElements.define('header-component', Header);
