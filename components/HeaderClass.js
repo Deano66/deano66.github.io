@@ -9,7 +9,7 @@ class Header extends HTMLElement {
 
         <div class="offcanvas offcanvas-end" id="rightMenu">
                 <div class="offcanvas-header">
-                    <div class="menuText">iSDA</div>
+                    <div class="menuText headlineFont">iSDA</div>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
                 </div>
                 <div class="offcanvas-body">

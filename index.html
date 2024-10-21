@@ -13,9 +13,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v20.0" nonce="1CmgvgkF"></script>
 </head>
 <body>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v21.0"></script>
 
    <header-component></header-component>
 
@@ -24,12 +26,12 @@
             <div class="flexCentre">
                 <div class="viewColumns" >
                     <div class="innerWrap">
-                        <div class="headline ">iSing iDance iAct <br> Theatre School</div> 
+                        <div class="headline headlineFont">iSing iDance iAct <br> Theatre School</div> 
  
                         <div class="headline2 ">Musical Theatre classes in Brackley, Warwick and Leamington Spa</div>
-                        <div  class="divBlock">
-                            <a class="heroButton marginRight30" href="#staff">Contact Us</a>
-                            <a class="heroButton" href="https://app.classmanager.com/classes/ising-idance-iact-theatre-school">Book a Class</a>
+                        <div  class="divBlock">               
+                            <a class="heroButton" href="#staff" role="button">Contact</a>
+                            <a class="heroButton" href="https://app.classmanager.com/classes/ising-idance-iact-theatre-school" role="button">Book a Class</a>
                         </div>
                     </div>
                     <div class="innerWrap">
@@ -40,39 +42,46 @@
         </div>
    </div>
 
-   <div class="full-height-div white" id="classes" >
+    <div class="full-height-div white" id="classes" >
 
-    <div class="pageColumnsHeaderContainer">
-        <div class="pageColumnsHeader">
-            <h1>iSing iDance iAct Theatre School <br>Musical Theatre classes in Brackley, Warwick and Leamington Spa</h1>
-        </div>
-    </div>
-
-    <div class="flexCentre">
-
-        
-        <div class="viewColumns">
-            
-            <div class="columnText">
-                
-                <p>Welcome to <b>iSing iDance iAct Theatre School</b>, your premier destination for performing arts education in Northamptonshire and Warwickshire covering all things singing, dancing and acting! Founded in 2020, we’ve been dedicated to offering a wide range of classes that nurture young talent and ignite creativity and building confidence through performing arts for children aged 3 plus.</p>
-                <p>At iSDA Theatre School we pride ourselves on delivering personal, professional, and most importantly fun lessons. Our vibrant and engaging classes are designed to inspire and develop students of all ages in an environment that fosters confidence, creativity, and a love for the performing arts.</p>
-                <p>Whether your child is passionate about singing, dancing, or acting—or all three!—we provide a variety of classes to suit their interests and developmental needs. Our curriculum is crafted to ensure that every lesson is not only educational but also enjoyable, helping students grow their skills whilst having a blast.</p>
-                <p>Join us to become a part of our growing community, let your child experience the joy of performing arts, and watch them flourish both on and off the stage!</p>
-            </div>
-            <div>
-                <img src="images/SchoolImage1.jpeg" class="columnImage">
-                
+        <div class="pageColumnsHeaderContainer">
+            <div class="pageColumnsHeader headlineFont">
+                <h1>iSing iDance iAct Theatre School </h1>
+                <h2>Musical Theatre classes in Brackley, Warwick and Leamington Spa</h2>
             </div>
         </div>
 
+        <div class="flexCentre">
+            <div class="viewColumns">
+                
+                    <div class="columnText">
+                        
+                        <p>Welcome to <b>iSing iDance iAct Theatre School</b>, your premier destination for performing arts education in Northamptonshire and Warwickshire covering all things singing, dancing and acting! Founded in 2020, we’ve been dedicated to offering a wide range of classes that nurture young talent and ignite creativity and building confidence through performing arts for children aged 3 plus.</p>
+                        <p>At iSDA Theatre School we pride ourselves on delivering personal, professional, and most importantly fun lessons. Our vibrant and engaging classes are designed to inspire and develop students of all ages in an environment that fosters confidence, creativity, and a love for the performing arts.</p>
+                        <p>Whether your child is passionate about singing, dancing, or acting—or all three!—we provide a variety of classes to suit their interests and developmental needs. Our curriculum is crafted to ensure that every lesson is not only educational but also enjoyable, helping students grow their skills whilst having a blast.</p>
+                        <p>Join us to become a part of our growing community, let your child experience the joy of performing arts, and watch them flourish both on and off the stage!</p>
+                    </div>
+                    <div>
+                        <img src="images/SchoolImage1.jpeg" class="columnImage">
+                        
+                    </div>
+            </div>
+
         </div>
+
+        <div class="pageColumnsFooterContainer">
+            <div  class="divBlock">               
+                <a class="freeTrialButton" href="https://app.classmanager.com/classes/ising-idance-iact-theatre-school" role="button">Book a Free Trial</a>
+            </div>
+        </div>
+
     </div>
+
 
     <div class="full-height-div red" id="weeklyclasses">
 
         <div class="pageColumnsHeaderContainer">
-            <div class="pageColumnsHeader">
+            <div class="pageColumnsHeader headlineFont">
                 <h2>Weekly Musical Theatre classes  for children in Brackley, Warwick and Leamington Spa</h2>
             </div>
         </div>
@@ -98,6 +107,11 @@
 
         </div>
 
+        <div class="pageColumnsFooterContainer">
+            <div  class="divBlock">               
+                <a class="freeTrialButton whiteButton" href="https://app.classmanager.com/classes/ising-idance-iact-theatre-school" role="button">Book a Free Trial</a>
+            </div>
+        </div>
 
    </div>
 
@@ -105,7 +119,7 @@
    <div class="full-height-div white" id="HolidayCampsAndWorkshops">
 
     <div class="pageColumnsHeaderContainer">
-        <div class="pageColumnsHeader">
+        <div class="pageColumnsHeader headlineFont">
             <h2>Weekly Musical Theatre classes  for children in Brackley, Warwick and Leamington Spa</h2>
         </div>
     </div>
@@ -131,6 +145,11 @@
 
     </div>
 
+    <div class="pageColumnsFooterContainer">
+        <div  class="divBlock">               
+            <a class="freeTrialButton" href="https://app.classmanager.com/classes/ising-idance-iact-theatre-school" role="button">Book a Free Trial</a>
+        </div>
+    </div>
 
 </div>
 
@@ -138,7 +157,7 @@
 <div class="full-height-div red" id="AfterSchoolClubs">
 
     <div class="pageColumnsHeaderContainer">
-        <div class="pageColumnsHeader">
+        <div class="pageColumnsHeader headlineFont">
             <h2>After School Clubs</h2>
         </div>
     </div>
@@ -171,12 +190,18 @@
         </div>
     </div>
 
+    <div class="pageColumnsFooterContainer">
+        <div  class="divBlock">               
+            <a class="freeTrialButton whiteButton" href="https://app.classmanager.com/classes/ising-idance-iact-theatre-school" role="button">Book a Free Trial</a>
+        </div>
+    </div>
+
 </div>
 
 <div class="full-height-div white" id="Parties">
 
     <div class="pageColumnsHeaderContainer">
-        <div class="pageColumnsHeader">
+        <div class="pageColumnsHeader headlineFont">
             <h2>Parties</h2>
         </div>
     </div>
@@ -205,12 +230,18 @@
         </div>
     </div>
 
+    <div class="pageColumnsFooterContainer">
+        <div  class="divBlock">               
+            <a class="freeTrialButton" href="https://app.classmanager.com/classes/ising-idance-iact-theatre-school" role="button">Book a Free Trial</a>
+        </div>
+    </div>
+
 </div>
 
 <div class="full-height-div red" id="PrivateSingingLessons">
 
     <div class="pageColumnsHeaderContainer">
-        <div class="pageColumnsHeader">
+        <div class="pageColumnsHeader headlineFont">
             <h2>Private singing lessons</h2>
         </div>
     </div>
@@ -229,21 +260,29 @@
         </div>
     </div>
 
+    <div class="pageColumnsFooterContainer">
+        <div  class="divBlock">               
+            <a class="freeTrialButton whiteButton" href="https://app.classmanager.com/classes/ising-idance-iact-theatre-school" role="button">Book a Free Trial</a>
+        </div>
+    </div>
+
 </div>
 
 
-
-
-
-
     <div class="full-height-div white" id="staff">
+
+        <div class="pageColumnsHeaderContainer">
+            <div class="pageColumnsHeader headlineFont">
+                <h2>Meet our expert staff!</h2>
+            </div>
+        </div>
 
     <div class="flexCentre">
 
         <div class="viewColumns">
 
             <div class="columnTextSingle">
-                <h1>Meet our expert staff!</h1>
+                
                 <p>Principal and lead instructor - Sophie’s journey in the performing arts began at the tender age of 3 with ballet, sparking a lifelong passion that has only grown stronger over the years. With over 8 years of experience teaching children from newborns to 18-year-olds, Sophie brings a wealth of knowledge and enthusiasm to every lesson.</p>
                 <p>Sophie is a fully qualified secondary Drama teacher, having earned her PGCE, and her expertise extends beyond the classroom. As an active professional performer, she travels across the country, showcasing her talents in a variety of shows, theatres, events, and private functions. This ongoing involvement in the performing arts ensures that she brings the latest industry insights and trends into her teaching.</p>
                 <p>Her love for the performing arts is not only evident in her dynamic teaching but also in her commitment to sharing her up-to-date knowledge with the next generation. Sophie’s unique blend of experience, passion, and professionalism makes her an inspiring mentor for all her students.</p>
@@ -266,44 +305,21 @@
 
    
 
-    <div class="full-height-div white" id="facebook">
 
 
-        <div >
+    <div class="fb-page" 
+    data-href="https://www.facebook.com/facebook" 
+    data-tabs="timeline, events"
+    adapt_container_width="true"
+    data-small-header="true"
+    data-height="3000"
+    ></div>
+
     
+
+
+
            
-            
-
-                        <div class="fb-page" 
-                        data-href="https://www.facebook.com/iSDATheatreSchool/" 
-                        data-tabs="timeline, events"
-                        adapt_container_width="true"
-                        data-small-header="true"
-                
-                        data-height="3000"
-                        >
-                
-                    </div>
-
-
-        </div>
-           
-    
-    
-
-    
-    
-        </div>
-
-
-   </div>
-
-
-
- 
-
-   </div>
-
 
 </body>
 </html>
