@@ -44,6 +44,7 @@ li {
     height: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .fb-page{
@@ -174,8 +175,9 @@ li {
     border: 1px solid white;
     color: red;
 }
-
-
+.whiteLink{
+    color: white;
+}
 
 .heroImage {
     width: 270px;
@@ -228,6 +230,11 @@ li {
 .icon{
     width:30px;
     padding-left: 10;
+}
+
+.logo-img {
+  /* to white */
+  filter: invert(1);
 }
 
 /* Page header */

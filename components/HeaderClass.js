@@ -14,6 +14,7 @@ class Header extends HTMLElement {
                 </div>
                 <div class="offcanvas-body">
                     <div class="rightMenuItem" data-bs-dismiss="offcanvas"><a class="nav-link" href="#">Home</a></div>
+                    <div class="rightMenuItem" data-bs-dismiss="offcanvas"><a class="nav-link" href="#Testimony">Testimony</a></div>
                     <div class="rightMenuItem" data-bs-dismiss="offcanvas"><a class="nav-link" href="#weeklyclasses">Weekly Classes</a></div>
                     <div class="rightMenuItem" data-bs-dismiss="offcanvas"><a class="nav-link" href="#HolidayCampsAndWorkshops">Holiday Camps and Workshops</a></div>
                     <div class="rightMenuItem" data-bs-dismiss="offcanvas"><a class="nav-link" href="#AfterSchoolClubs">After school clubs</a></div>
@@ -51,6 +52,9 @@ class Header extends HTMLElement {
               
                           <li class="nav-item">
                             <a class="nav-link" href="#">Home</a>
+                          </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="#Testimony">Testimony</a>
                           </li>
               
                           <li class="nav-item dropdown">
