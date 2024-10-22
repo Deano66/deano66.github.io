@@ -39,12 +39,15 @@ li {
 
 
 
-.facebookCentre {
+.facebookContent {
     height: 100%;
+    display: flex;
+    justify-content: center;
+}
 
-
-
-
+.fb-page{
+    width:100%;
+    max-width:500px;
 }
 
 .flexCentre {
