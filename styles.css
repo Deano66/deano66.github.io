@@ -13,8 +13,8 @@
 
     --formTextBackgroundColour: #ffffff;
 
-    --backgroundColour1: #333;
-    --backgroundColour2: #404040;
+    --backgroundColour2: #333;
+    --backgroundColour1: #282828;
     --backgroundColour3: #454343;
 
     --textColour:#ffffff;
@@ -47,6 +47,11 @@ body {
     background-color: var(--pageBackgroundColour);
   }
 
+  footer {
+    height:160px;
+    background-color: var(--backgroundColour1);
+    font-size: 14px;
+  }
 
 
 .contentSection{
