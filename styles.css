@@ -133,7 +133,7 @@ body {
 }
 
 .infoBox {
-    font-size: 14px;
+    
     font-style: normal;
     background-color: var(--backgroundColour1);
     padding: 5px 20px;
@@ -146,6 +146,8 @@ body {
     text-align: center;
     align-content: center;
 }
+
+
 
 
 
@@ -378,6 +380,10 @@ body {
 
 .p-bottom-40 {
     padding-bottom:40px;
+}
+
+.p-bottom-20 {
+    padding-bottom:20px;
 }
 
 .p-top-5 {
